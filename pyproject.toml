@@ -1,0 +1,17 @@
+[project]
+name = "agi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kathryn", email = "ebunoluwaigbalaye@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "arc-agi>=0.9.9",
+    "argparse>=1.4.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.16,<0.12.0"]
+build-backend = "uv_build"
